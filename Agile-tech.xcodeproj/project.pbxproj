@@ -13,6 +13,7 @@
 		059F03B92535918F00C9915A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059F03B72535918F00C9915A /* Main.storyboard */; };
 		059F03BB2535919300C9915A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059F03BA2535919300C9915A /* Assets.xcassets */; };
 		059F03BE2535919300C9915A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059F03BC2535919300C9915A /* LaunchScreen.storyboard */; };
+		059F03CA2536E49200C9915A /* TextDesinableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059F03C92536E49100C9915A /* TextDesinableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		059F03BA2535919300C9915A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		059F03BD2535919300C9915A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		059F03BF2535919300C9915A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		059F03C92536E49100C9915A /* TextDesinableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDesinableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		059F03B02535918F00C9915A /* Agile-tech */ = {
 			isa = PBXGroup;
 			children = (
+				059F03C72536E43000C9915A /* DesignableView */,
 				059F03B12535918F00C9915A /* AppDelegate.swift */,
 				059F03B32535918F00C9915A /* SceneDelegate.swift */,
 				059F03B52535918F00C9915A /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				059F03BF2535919300C9915A /* Info.plist */,
 			);
 			path = "Agile-tech";
+			sourceTree = "<group>";
+		};
+		059F03C72536E43000C9915A /* DesignableView */ = {
+			isa = PBXGroup;
+			children = (
+				059F03C92536E49100C9915A /* TextDesinableView.swift */,
+			);
+			path = DesignableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				059F03B62535918F00C9915A /* ViewController.swift in Sources */,
+				059F03CA2536E49200C9915A /* TextDesinableView.swift in Sources */,
 				059F03B22535918F00C9915A /* AppDelegate.swift in Sources */,
 				059F03B42535918F00C9915A /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TD6LFAZ9X8;
 				INFOPLIST_FILE = "Agile-tech/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TD6LFAZ9X8;
 				INFOPLIST_FILE = "Agile-tech/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
