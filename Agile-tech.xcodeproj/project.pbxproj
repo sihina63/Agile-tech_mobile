@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0512ECD525709CD600FF9F4C /* PortalPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0512ECD425709CD600FF9F4C /* PortalPageViewController.swift */; };
 		059F03B22535918F00C9915A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059F03B12535918F00C9915A /* AppDelegate.swift */; };
 		059F03B42535918F00C9915A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059F03B32535918F00C9915A /* SceneDelegate.swift */; };
 		059F03B62535918F00C9915A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059F03B52535918F00C9915A /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0512ECD425709CD600FF9F4C /* PortalPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalPageViewController.swift; sourceTree = "<group>"; };
 		059F03AE2535918F00C9915A /* Agile-tech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agile-tech.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		059F03B12535918F00C9915A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		059F03B32535918F00C9915A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,10 +60,10 @@
 		059F03B02535918F00C9915A /* Agile-tech */ = {
 			isa = PBXGroup;
 			children = (
+				05D85C242574B48B00983CA0 /* ViewController */,
 				059F03C72536E43000C9915A /* DesignableView */,
 				059F03B12535918F00C9915A /* AppDelegate.swift */,
 				059F03B32535918F00C9915A /* SceneDelegate.swift */,
-				059F03B52535918F00C9915A /* ViewController.swift */,
 				059F03B72535918F00C9915A /* Main.storyboard */,
 				059F03BA2535919300C9915A /* Assets.xcassets */,
 				059F03BC2535919300C9915A /* LaunchScreen.storyboard */,
@@ -76,6 +78,15 @@
 				059F03C92536E49100C9915A /* TextDesinableView.swift */,
 			);
 			path = DesignableView;
+			sourceTree = "<group>";
+		};
+		05D85C242574B48B00983CA0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				059F03B52535918F00C9915A /* ViewController.swift */,
+				0512ECD425709CD600FF9F4C /* PortalPageViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				059F03B62535918F00C9915A /* ViewController.swift in Sources */,
+				0512ECD525709CD600FF9F4C /* PortalPageViewController.swift in Sources */,
 				059F03CA2536E49200C9915A /* TextDesinableView.swift in Sources */,
 				059F03B22535918F00C9915A /* AppDelegate.swift in Sources */,
 				059F03B42535918F00C9915A /* SceneDelegate.swift in Sources */,
