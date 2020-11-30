@@ -12,7 +12,7 @@
         <!--logingPage-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="login" title="LOGING PAGE" id="BYZ-38-t0r" userLabel="logingPage" customClass="ViewController" customModule="Agile_tech" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginStory" title="LOGING PAGE" id="BYZ-38-t0r" userLabel="logingPage" customClass="ViewController" customModule="Agile_tech" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -198,7 +198,7 @@
                         <outlet property="_login_button" destination="RZY-gI-QIs" id="UuZ-DJ-4K9"/>
                         <outlet property="_password" destination="2xm-wa-rvw" id="jfB-9D-jIs"/>
                         <outlet property="_username" destination="gnl-L3-tLg" id="JZz-vC-sqk"/>
-                        <segue destination="gfq-nN-ZGe" kind="show" identifier="portalPage" id="QdB-6i-Rp9"/>
+                        <segue destination="gfq-nN-ZGe" kind="show" identifier="login" id="QdB-6i-Rp9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -206,19 +206,9 @@
             <point key="canvasLocation" x="660.86956521739137" y="-76.339285714285708"/>
         </scene>
         <!--portalPage-->
-        <scene sceneID="LEu-1l-dal">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="portalPage" id="BD6-Ni-2HD" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="iob-5s-tLA"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ggf-jB-j21" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1093.4782608695652" y="-49.553571428571423"/>
-        </scene>
-        <!--portalPage-->
         <scene sceneID="YCE-lz-Yoo">
             <objects>
-                <viewController storyboardIdentifier="PortalPageViewController" title="PORTAL PAGE" definesPresentationContext="YES" id="gfq-nN-ZGe" userLabel="portalPage" customClass="PortalPageViewController" customModule="Agile_tech" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="PORTAL PAGE" definesPresentationContext="YES" id="gfq-nN-ZGe" userLabel="portalPage" customClass="PortalPageViewController" customModule="Agile_tech" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="o2k-Ap-yeg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -452,8 +442,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="9z3-QK-fga"/>
                     <connections>
+                        <outlet property="buName" destination="rhq-C8-0HY" id="Xtf-nf-MmT"/>
+                        <outlet property="eName" destination="kUq-nL-9Gg" id="Fik-zV-uIU"/>
                         <outlet property="labalTest" destination="rz4-27-pjV" id="Mgb-Lv-5A6"/>
-                        <segue destination="bb8-a8-mf1" kind="show" identifier="portalPage" id="jAX-jj-iy3"/>
+                        <segue destination="bb8-a8-mf1" kind="show" identifier="portalMemu" id="jAX-jj-iy3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RI5-kr-poF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

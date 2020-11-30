@@ -37,7 +37,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         } else {
             
             DoLogin(employeeId!, password!)
-            self.performSegue(withIdentifier: "portalPage", sender: self)
+                self.performSegue(withIdentifier: "login", sender: self)
         }
                     
     }
